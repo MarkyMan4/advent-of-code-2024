@@ -1,4 +1,4 @@
-package main
+package day1
 
 import (
 	"bufio"
@@ -22,8 +22,8 @@ func splitLine(line string) (int, int) {
 	return num1, num2
 }
 
-func main() {
-	file, err := os.Open("input.txt")
+func SolvePart1() {
+	file, err := os.Open("input/day1input.txt")
 	if err != nil {
 		log.Fatalln(err)
 	}
