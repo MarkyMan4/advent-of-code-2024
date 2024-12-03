@@ -30,5 +30,7 @@ func main() {
 		day1.SolvePart2()
 	case "21":
 		day2.SolvePart1()
+	case "22":
+		day2.SolvePart2()
 	}
 }
