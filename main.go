@@ -5,6 +5,7 @@ import (
 	"os"
 
 	"github.com/MarkyMan4/advent-of-code-2024/day1"
+	"github.com/MarkyMan4/advent-of-code-2024/day10"
 	"github.com/MarkyMan4/advent-of-code-2024/day2"
 	"github.com/MarkyMan4/advent-of-code-2024/day3"
 	"github.com/MarkyMan4/advent-of-code-2024/day4"
@@ -67,5 +68,9 @@ func main() {
 		day9.SolvePart1()
 	case "92":
 		day9.SolvePart2()
+	case "101":
+		day10.SolvePart1()
+	case "102":
+		day10.SolvePart2()
 	}
 }
